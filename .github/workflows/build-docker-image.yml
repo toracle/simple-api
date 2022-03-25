@@ -22,4 +22,3 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: "ghcr.io/${{ github.repository_owner }}/my-container-test:latest"
-        run: docker push ghcr.io/toracle/simple-api:latest
